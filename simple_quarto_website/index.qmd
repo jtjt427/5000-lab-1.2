@@ -1,0 +1,86 @@
+---
+title: "simple_quarto_website"
+---
+
+# Welcome to My Website
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## About me
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[@kwong1992variable]
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Education
+:::: {.columns}
+::: {.column width="50%"}
+### Undergraduate
+
+UMD BS in Agriculture Resource Economics
+
+:::
+
+::: {.column width="50%"}
+### Grad-school
+
+GU MS in Data Science and Analytics
+
+:::
+::::
+
+### Markdown table
+| Duis aute   | irure dolor |
+| ----------- | ----------- |
+| risus       | nullam      |
+| eget        | felis       |
+
+### Math Equation with a footnote
+This is an expamle of inline equation $x^2 + x -1 = 0$
+
+This is an example of non inline-math equation[^1]:
+$$
+\begin{aligned}
+& \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n !}(x-a)^n \\
+& n ! \quad=\text { factorial of } n \\
+& a \quad=\text { real or complex number } \\
+& f^{(n)}(a)=\text { nth derivative of f evaluated at the point a }
+\end{aligned}
+$$ 
+
+[^1]: This is obtained from: https://en.wikipedia.org/wiki/Taylor_series
+
+> This is a blockquote.
+> In hendrerit gravida rutrum quisque non tellus orci ac. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Enim eu turpis egestas pretium aenean pharetra magna ac placerat.
+
+### Images
+At auctor urna nunc id cursus metus aliquam. Tincidunt eget nullam non nisi est sit amet. Malesuada proin libero nunc consequat interdum varius sit amet. Sed odio morbi quis commodo odio aenean sed adipiscing diam. Diam maecenas sed enim ut sem viverra aliquet eget. 
+![](images/2023-09-12-23-32-18.png)
+Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. 
+![](images/2023-09-12-23-37-29.png)
+Purus in mollis nunc sed id semper risus in hendrerit. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Dolor sit amet consectetur adipiscing elit. 
+
+### Video
+This is a video
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+### Mermaid
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  B --> D{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#header-1",
+    "href": "about.html#header-1",
+    "title": "About",
+    "section": "Header 1",
+    "text": "Header 1\nMauris ultrices eros in cursus turpis. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Aliquet sagittis id consectetur purus ut. Ac tortor dignissim convallis aenean et tortor at risus viverra."
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "About",
+    "section": "Header 2",
+    "text": "Header 2\nAliquet sagittis id consectetur purus ut. Ac tortor dignissim convallis aenean et tortor at risus viverra.\n\nHeader 3\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.(Kwong and Johnston 1992)\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\nUMD BS in Agriculture Resource Economics\n\n\n\n\nGU MS in Data Science and Analytics\n\n\n\n\n\n\n\n\nDuis aute\nirure dolor\n\n\n\n\nrisus\nnullam\n\n\neget\nfelis\n\n\n\n\n\n\nThis is an expamle of inline equation \\(x^2 + x -1 = 0\\)\nThis is an example of non inline-math equation1: \\[\n\\begin{aligned}\n& \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n !}(x-a)^n \\\\\n& n ! \\quad=\\text { factorial of } n \\\\\n& a \\quad=\\text { real or complex number } \\\\\n& f^{(n)}(a)=\\text { nth derivative of f evaluated at the point a }\n\\end{aligned}\n\\]\n\nThis is a blockquote. In hendrerit gravida rutrum quisque non tellus orci ac. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Enim eu turpis egestas pretium aenean pharetra magna ac placerat.\n\n\n\n\nAt auctor urna nunc id cursus metus aliquam. Tincidunt eget nullam non nisi est sit amet. Malesuada proin libero nunc consequat interdum varius sit amet. Sed odio morbi quis commodo odio aenean sed adipiscing diam. Diam maecenas sed enim ut sem viverra aliquet eget.  Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus.  Purus in mollis nunc sed id semper risus in hendrerit. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Dolor sit amet consectetur adipiscing elit.\n\n\n\nThis is a video\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  B --&gt; D{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.(Kwong and Johnston 1992)\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "UMD BS in Agriculture Resource Economics\n\n\n\n\nGU MS in Data Science and Analytics\n\n\n\n\n\n\n\n\nDuis aute\nirure dolor\n\n\n\n\nrisus\nnullam\n\n\neget\nfelis\n\n\n\n\n\n\nThis is an expamle of inline equation \\(x^2 + x -1 = 0\\)\nThis is an example of non inline-math equation1: \\[\n\\begin{aligned}\n& \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n !}(x-a)^n \\\\\n& n ! \\quad=\\text { factorial of } n \\\\\n& a \\quad=\\text { real or complex number } \\\\\n& f^{(n)}(a)=\\text { nth derivative of f evaluated at the point a }\n\\end{aligned}\n\\]\n\nThis is a blockquote. In hendrerit gravida rutrum quisque non tellus orci ac. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Enim eu turpis egestas pretium aenean pharetra magna ac placerat.\n\n\n\n\nAt auctor urna nunc id cursus metus aliquam. Tincidunt eget nullam non nisi est sit amet. Malesuada proin libero nunc consequat interdum varius sit amet. Sed odio morbi quis commodo odio aenean sed adipiscing diam. Diam maecenas sed enim ut sem viverra aliquet eget.  Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus.  Purus in mollis nunc sed id semper risus in hendrerit. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Dolor sit amet consectetur adipiscing elit.\n\n\n\nThis is a video\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  B --&gt; D{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is obtained from: https://en.wikipedia.org/wiki/Taylor_series↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1",
+    "href": "slides/slides.html#slide-1",
+    "title": "Demo Slides",
+    "section": "Slide 1",
+    "text": "Slide 1\n\n\nVitae nunc sed velit dignissim sodales ut eu sem integer.(Widrow, McCool, and Ball 1975)"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Demo Slides",
+    "section": "Slide 2",
+    "text": "Slide 2\n\nMagna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Sociis natoque penatibus et magnis."
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "Demo Slides",
+    "section": "Slide 3",
+    "text": "Slide 3\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Demo Slides",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nWidrow, Bernard, John McCool, and Michael Ball. 1975. “The Complex LMS Algorithm.” Proceedings of the IEEE 63 (4): 719–20."
+  }
+]
